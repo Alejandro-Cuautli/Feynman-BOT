@@ -14,8 +14,14 @@ A continuación se encuentran los pasos necesarios para configurar y ejecutar Fe
 1. **Archivo .env**: Crea un archivo `.env` en la raíz del proyecto para almacenar variables de entorno sensibles. Asegúrate de que contenga la siguiente información:
 
    ```
-   RABBITMQ_USER=tu_usuario
-   RABBITMQ_PASSWORD=tu_contraseña
+    GROQ_API_KEY= ""
+    LANGCHAIN_API_KEY= ""
+    LANGCHAIN_ENDPOINT=""
+    LANGCHAIN_TRACING_V2=true
+    LANGCHAIN_PROJECT=  "Feynman-Rag"
+    PINECONE_ENVIRONMENT=""
+    OPENAI_API_KEY=""
+
    ``
 
 2. **Dependencias de Node.js**: Instala las dependencias necesarias ejecutando el siguiente comando en la carpeta del proyecto:
