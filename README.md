@@ -27,7 +27,9 @@ A continuación se encuentran los pasos necesarios para configurar y ejecutar Fe
 2. **Dependencias de Node.js**: Instala las dependencias necesarias ejecutando el siguiente comando en la carpeta del proyecto:
 
    ```
-   npm install
+   npm install  @whiskeysockets/baileys
+   npm install qrcode-terminal
+   npm install amqplib
    ```
 
 ## Instrucciones para Docker
